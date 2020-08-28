@@ -11,6 +11,7 @@ We can also insert tables like
 | Name | Title |
 | --- | --- |
 | Hrishabh | Dubey |
+
 *This is italic statement*
 
 **This is all that i learnt till now in markdown.Also this is bold statement.**
