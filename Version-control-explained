@@ -1,0 +1,16 @@
+Version Control System-
+->Version control allows you to manage changes to files over time. You can use version control to version code, binary files, and digital assets.
+->Version control is sometimes referred to as revision control or source control. It’s an important component of software configuration management.
+->It allows multiple developers, designers, and team members to work together on the same project. As development gets more complex, there's a bigger need to manage multiple versions of entire products
+->It is important to keep track of changes and keep every team member working off the latest version. You should use version control software for all code, files, and assets that multiple team members will collaborate on.
+->Here are a few of the most popular types of VCS:
+          #Helix Core (Perforce)
+          #Git
+          #SVN
+          #ClearCase
+          #Mercurial
+          #TFS
+->There are many benefits to version control. The biggest benefits of the right VCS include:
+          #A single source of truth across teams, code, and assets.
+          #Traceability for every change ever made.
+          #Speed for development teams who don't want to waste time looking for a file.
