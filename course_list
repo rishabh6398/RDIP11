@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title>
+COURSE_LIST
+</title>
+<body>
+<ol>
+    <li>Udemy- Python for Beginners</li>
+    <ul>
+      <li>Program for Fizz Buzz</li>
+      <li>Program for Patient/Doctor Scheduler</li>
+    </ul>
+    <li>Udemy-Complete Python Bootcamp</li>
+    <ul>
+      <li>Creation of Tic Tac Toe Game</li>
+      <li>Credit Card Validator program</li>
+    </ul>
+    <li>Tableau</li>
+    <ul>
+      <li>Received Consumer Batch</li>
+      <li>Received Author Batch</li>
+    </ul>
+</ol>
+</body>
+</html>
