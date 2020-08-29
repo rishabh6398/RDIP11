@@ -5,17 +5,17 @@ COURSE_LIST
 </title>
 <body>
 <ol>
-    <li>Udemy- Python for Beginners</li>
+    <a href="https://www.udemy.com/course/complete-python-bootcamp"><li>Udemy- Python for Beginners</li></a>
     <ul>
       <li>Program for Fizz Buzz</li>
       <li>Program for Patient/Doctor Scheduler</li>
     </ul>
-    <li>Udemy-Complete Python Bootcamp</li>
+    <a href="https://www.udemy.com/course/python-tutorials-for-by-navinreddy/"><li>Udemy-Complete Python Bootcamp</li></a>
     <ul>
       <li>Creation of Tic Tac Toe Game</li>
       <li>Credit Card Validator program</li>
     </ul>
-    <li>Tableau</li>
+    <a href="https://www.tableau.com/learn/training/elearning"><li>Tableau</li></a>
     <ul>
       <li>Received Consumer Batch</li>
       <li>Received Author Batch</li>
