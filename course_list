@@ -22,6 +22,7 @@ a:active {
 }
 ul.a {
   list-style-type: circle;
+  display=none;
 }
 
 ul.b {
@@ -35,6 +36,7 @@ ul.c {
 ol.A {
   list-style-type: lower-alpha;
 }
+
 </style>
 </head>
 <body>
