@@ -15,13 +15,18 @@ p1{
 font-style:italic;
 font-size:20px;
 }
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
 
 </style>
 </head>
 <body>
 
 <h1>My Understanding of HTML</h1>
-<p>HTML stands for Hyper Text Markup Language and it is markup language for creating web pages. HTML describes the structure of web page.It tells the browser how to display the content.</p>
+<div class="static">
+HTML stands for Hyper Text Markup Language and it is markup language for creating web pages. HTML describes the structure of web page.It tells the browser how to display the content.</div>
 
 <p1>The basic elements of HTML are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page.<br> HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.<br>
 The basic elements of HTML are-<br>
