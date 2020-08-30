@@ -2,6 +2,21 @@
 <html>
 <head>
 <title>About HTML</title>
+<style>
+h1{
+color:red;
+background:lightblue;
+font-family:verdana;
+}
+p{
+background-color:lightblue;
+}
+p1{
+font-style:italic;
+font-size:20px;
+}
+
+</style>
 </head>
 <body>
 
