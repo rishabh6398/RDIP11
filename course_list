@@ -20,22 +20,37 @@ a:hover {
 a:active {
   color: blue;
 }
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ul.c {
+  list-style-type: upper-roman;
+}
+
+ol.A {
+  list-style-type: lower-alpha;
+}
 </style>
 </head>
 <body>
-<ol>
+<ol class="A">
     <a href="https://www.udemy.com/course/complete-python-bootcamp"><li>Udemy- Python for Beginners</li></a>
-    <ul>
+    <ul class="a">
       <li>Program for Fizz Buzz</li>
       <li>Program for Patient/Doctor Scheduler</li>
     </ul>
     <a href="https://www.udemy.com/course/python-tutorials-for-by-navinreddy/"><li>Udemy-Complete Python Bootcamp</li></a>
-    <ul>
+    <ul class="b">
       <li>Creation of Tic Tac Toe Game</li>
       <li>Credit Card Validator program</li>
     </ul>
     <a href="https://www.tableau.com/learn/training/elearning"><li>Tableau</li></a>
-    <ul>
+    <ul class="c">
       <li>Received Consumer Batch</li>
       <li>Received Author Batch</li>
     </ul>
