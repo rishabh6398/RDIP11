@@ -1,12 +1,11 @@
 const myHeading = document.querySelector('h1');
 myHeading.textContent = 'JAVASCRIPT INTRODUCTION!'
-var a,b;
-a=3;
-b=4;
-function sum(x) {
-	return(x)
+var a=[1,2,3,4,5];
+
+function oper(x) {
+	var ch=x[3].toString();
+	return(ch)
 
 	// body...
 }
-console.log(sum(3));
-console.log(sum(4));
+console.log(oper(a));
