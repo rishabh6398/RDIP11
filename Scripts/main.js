@@ -29,12 +29,16 @@ function myCreateFunction() {
   cell1.innerHTML = "Average";
   cell2.innerHTML = a/3;
 }
-
-var str="This world needs to save its nature to survive."
-document.getElementById("regexp").innerHTML = "The position of given string in original string =" + str.search(/World/i);
-
-
-
+var a=3;
+var b=5;
+    document.getElementById("power").innerHTML = "Power="+Math.pow(a,b);
+	document.getElementById("squareroot").innerHTML = "Square root="+Math.sqrt(a);
+	document.getElementById("absolute").innerHTML = "Absolute Value="+Math.abs(b);
+var x=Math.random();
+	document.getElementById("ceil").innerHTML = "Ceil Value="+Math.ceil(x);
+	document.getElementById("round").innerHTML = "Rounded Value="+Math.round(x);
+	document.getElementById("floor").innerHTML = "Floored Value="+Math.floor(a+x);
+	document.getElementById("trigno").innerHTML = "Cosine Value="+Math.cos(30*Math.PI/180);
 
 
 
