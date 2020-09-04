@@ -29,7 +29,12 @@ function myCreateFunction() {
   cell1.innerHTML = "Average";
   cell2.innerHTML = a/3;
 }
-
+var x = multi(5, 10);
+document.getElementById("multiply").innerHTML = "The value after multiplication operation = " + x;
+function multi(a,b=1)
+{
+ return(a*b);
+}
 
 
 
