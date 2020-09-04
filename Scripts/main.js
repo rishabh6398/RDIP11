@@ -29,12 +29,10 @@ function myCreateFunction() {
   cell1.innerHTML = "Average";
   cell2.innerHTML = a/3;
 }
-var x = multi(5, 10);
-document.getElementById("multiply").innerHTML = "The value after multiplication operation = " + x;
-function multi(a,b=1)
-{
- return(a*b);
-}
+
+var str="This world needs to save its nature to survive."
+document.getElementById("regexp").innerHTML = "The position of given string in original string =" + str.search(/World/i);
+
 
 
 
