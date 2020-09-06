@@ -42,3 +42,22 @@ var x=Math.random();
 
 var dt= new Date();
 console.log(dt.getFullYear()+'-'+(dt.getMonth()+1)+'-'+dt.getDate());
+
+
+function printfibo()
+{
+	var n = document.getElementById("fibonum").value;
+	var a=0, b=1;
+	document.write("The fibonacci series is : ");
+	document.write("",a," ");
+	document.write("",b," ");
+	var i, sum;
+	for(i=2; i<n;i++)
+	{
+	sum=a+b;
+	document.write("",sum," ");
+	a=b;
+	b=sum;
+}
+
+}
