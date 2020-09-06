@@ -40,5 +40,5 @@ var x=Math.random();
 	document.getElementById("floor").innerHTML = "Floored Value="+Math.floor(a+x);
 	document.getElementById("trigno").innerHTML = "Cosine Value="+Math.cos(30*Math.PI/180);
 
-
-
+var dt= new Date();
+console.log(dt.getFullYear()+'-'+(dt.getMonth()+1)+'-'+dt.getDate());
