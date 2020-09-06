@@ -46,7 +46,18 @@ console.log(dt.getFullYear()+'-'+(dt.getMonth()+1)+'-'+dt.getDate());
 
 function printfibo()
 {
-	var n = document.getElementById("fibonum").value;
+	  var message;
+ 	 message = document.getElementById("err");
+  	 message.innerHTML = "";
+  	 var n = document.getElementById("fibonum").value;
+	try
+	{
+	if n<10 || n>100 throw "Invalid";
+	}
+	catch(err)
+	{
+		message.innerHTML = "Input is " + err;
+	}
 	var a=0, b=1;
 	document.write("The fibonacci series is : ");
 	document.write("",a," ");
