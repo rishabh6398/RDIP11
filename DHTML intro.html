@@ -4,9 +4,28 @@
 <title>
 DHTML Introduction
 </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("demo_test_post.asp",
+    {
+      name: "Hrishabh Dubey",
+      city: "Varanasi"
+    },
+    function(data,status){
+      alert("Data: " + data + "\nStatus: " + status);
+    });
+  });
+});
+</script>
 </head>
 <body>
 <h1>What is DHTML?</h1>
+<p id="intro">
 <ul>
  <li>It stands for Dynamic HTML, it is totally different from HTML.</li>
  <li>The browsers which support the dynamic HTML are some of the versions of Netscape Navigator and Internet Explorer of version higher than 4.0.</li>
@@ -14,11 +33,16 @@ DHTML Introduction
  <li>The DHTML make use of Dynamic object model to make changes in settings and also in properties and methods.</li>
  <li>DHTML is used to create interactive and animated web pages that are generated in real-time, also known as dynamic web pages so that when such a page is accessed, the code within the page is analyzed on the web server and the resulting HTML is sent to the client’s web browser.</li>
 </ul>
+</p>
 <h1>Why use DHTML?</h1>
 <ol>
  <li>DHTML has the ability to change a webpages look, content and style once the document has loaded on our demand without changing or deleting everything already existing on the browser’s webpage.</li>
  <li>It  can change the content of a webpage on demand without the browser having to erase everything else.</li>
 </ol>
+<button>Send an HTTP POST request to a page and get the result back</button>
+<p id='t'></p>
+<script src=intro.js></script>
+
 </body>
 </html>
  
